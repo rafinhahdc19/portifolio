@@ -6,7 +6,11 @@ const Footer = () => {
     const anoAtual = new Date().getFullYear();
     return (
         <>
-            
+            <div className=" p-6 pb-[9rem] ">
+                <div className="lg:max-w-7xl  mr-auto ml-auto">
+                        
+                </div>
+            </div>
         </>
     )
 }
