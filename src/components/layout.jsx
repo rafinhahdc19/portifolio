@@ -23,10 +23,10 @@ export default function Layout({ children }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#000000"></meta>
-        <title>portfolio Rafa Dev</title>
+        <title>Portfolio Rafa Dev</title>
         <meta
           name="description"
-          content="A loja onde você encontrará tudo o que precisa."
+          content="Portifolio rafael dev"
         />
       </Head>
       <GlobalStyle />
