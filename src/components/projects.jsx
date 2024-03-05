@@ -3,7 +3,7 @@ import Link from "next/link"
 const Projects = ({ src, title, desc, link }) => {
     return (
         <>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-3">
                 <div className="border justify-center p-3 border-[#1DDA52] rounded-2xl">
                     <img
                         src={src}
