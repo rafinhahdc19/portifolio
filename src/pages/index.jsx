@@ -59,7 +59,7 @@ export default function Home() {
             <div className='mr-auto ml-auto justify-center'>
               <div className='grid flex-col lg:grid-cols-2 md:grid-cols-2 grid-cols-1 m-4 justify-center'>
                 <Projects src={"/dmsports.png"} title={"DMSports"} desc={"Loja virtual feita do zero com nodejs e nextjs"} link={"https://storedmsports.com"} />
-                <Projects src={"/cturandi.png"} title={"CTUrandi"} desc={"Site empresarial para feito com nextjs"} link={"https://www.clubedetirourandi.com.br"} />
+                <Projects src={"/cturandi.png"} title={"CTUrandi"} desc={"Site empresarial para feito com nextjs"} link={"https://site-ctu.netlify.app"} />
               </div>
             </div>
             <h1 className='text-center mt-[3rem] font-bold text-3xl'>
