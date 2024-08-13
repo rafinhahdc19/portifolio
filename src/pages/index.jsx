@@ -16,8 +16,8 @@ export default function Home() {
 
             <div className='md:flex justify-between'>
               <section id='homepage' />
-              <div className='block md:w-[70%]'>
-                <h1 className='md:text-5xl w-full text-4xl md:p-0 p-1 md:text-left lg:ml-4 md:ml-[2rem] text-center font-bold md:mt-[7rem]'>
+              <div className='block md:w-[70%] md:px-0 px-4'>
+                <h1 className='md:text-5xl w-full text-center text-3xl md:mb-0 mb-2 md:p-0 p-1 md:text-left lg:ml-4 md:ml-[2rem] font-bold md:mt-[7rem]'>
                   Olá, eu sou Rafael 👋
                 </h1>
                 <h2 className='md:text-3xl text-[#1DDA52] text-4xl md:p-0 p-1 md:text-left lg:ml-4 md:ml-[2rem] text-center'>Software developer</h2>
@@ -57,9 +57,10 @@ export default function Home() {
               <h1 className='text-center md:text-2xl text-xl font-semibold mb-[3rem] text-[#1DDA52]'>Projetos</h1>
             </ScrollRevealContainer>
             <div className='mr-auto ml-auto justify-center'>
-              <div className='grid flex-col lg:grid-cols-2 md:grid-cols-2 grid-cols-1 m-4 justify-center'>
-                <Projects src={"/dmsports.png"} title={"DMSports"} desc={"Loja virtual feita do zero com nodejs e nextjs"} link={"https://storedmsports.com"} />
-                <Projects src={"/cturandi.png"} title={"CTUrandi"} desc={"Site empresarial para feito com nextjs"} link={"https://site-ctu.netlify.app"} />
+              <div className='grid gap-2 flex-col lg:grid-cols-3 md:grid-cols-3 grid-cols-1 m-4 justify-center'>
+                <Projects src={"/dmsports.png"} title={"DMSports"} desc={"Loja virtual feita do zero com as melhores tecnologias"} link={"https://storedmsports.com"} />
+                <Projects src={"/cturandi.png"} title={"CTUrandi"} desc={"Site empresarial para alavancar o CTUrandi"} link={"https://site-ctu.netlify.app"} />
+                <Projects src={"/takefood.png"} title={"TakeFood"} desc={"Sistema de cardápios online desenvolvido para restaurantes (beta)"} link={"https://takefoodfront.netlify.app"} />
               </div>
             </div>
             <h1 className='text-center mt-[3rem] font-bold text-3xl'>
@@ -75,13 +76,13 @@ export default function Home() {
           <div className='py-6 px-8'>
             <h1 className='text-center mb-[4.5rem] md:text-2xl text-xl font-semibold text-[#1DDA52]'>Contato</h1>
             <div className='flex flex-col justify-center mr-auto ml-auto'>
-              <h1 className='text-3xl justify-center mr-auto ml-auto mb-[3.5rem] font-medium text-center'>
+              <h1 className='text-3xl justify-center mr-auto ml-auto mb-[3rem] font-medium text-center'>
                 Converse comigo pelo Instagram
               </h1>
               <div className='mr-auto mb-[3.5rem] ml-auto justify-center'>
                 <Link href={"https://www.instagram.com/_rafadev_"}>
-                  <button className=' text-center bg-[#28AE41] md:p-6 p-4 md:text-xl text-lg font-medium rounded-lg'>
-                    Entrar em contato pelo Direct
+                  <button className=' text-center bg-[#28AE41] md:p-6 p-4 text-xl font-medium rounded-lg'>
+                    Entrar em contato
                   </button>
                 </Link>
               </div>

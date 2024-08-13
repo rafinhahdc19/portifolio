@@ -7,7 +7,7 @@ const Projects = ({ src, title, desc, link }) => {
                 <div className="border justify-center p-3 border-[#1DDA52] rounded-2xl">
                     <img
                         src={src}
-                        className="mb-4"
+                        className="mb-4 rounded-xl"
                     />
                     <h1 className="font-bold text-2xl mb-2">{title}</h1>
                     <h2 className="font-medium text-xl mb-2">{desc}</h2>
