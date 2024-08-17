@@ -60,7 +60,7 @@ export default function Home() {
               <div className='grid gap-2 flex-col lg:grid-cols-3 md:grid-cols-3 grid-cols-1 m-4 justify-center'>
                 <Projects src={"/dmsports.png"} title={"DMSports"} desc={"Loja virtual feita do zero com as melhores tecnologias"} link={"https://storedmsports.com"} />
                 <Projects src={"/cturandi.png"} title={"CTUrandi"} desc={"Site empresarial para alavancar o CTUrandi"} link={"https://site-ctu.netlify.app"} />
-                <Projects src={"/takefood.png"} title={"TakeFood"} desc={"Sistema de cardápios online desenvolvido para restaurantes (beta)"} link={"https://takefoodfront.netlify.app"} />
+                <Projects src={"/takefood.png"} title={"TakeFood"} desc={"Sistema de cardápios online desenvolvido para restaurantes (beta)"} link={"https://www.takefood.xyz"} />
               </div>
             </div>
             <h1 className='text-center mt-[3rem] font-bold text-3xl'>
