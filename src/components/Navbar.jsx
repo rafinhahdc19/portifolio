@@ -8,7 +8,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav id='home' className="w-full bg-[#161616] z-50 py-6 fixed top-0 left-0 right-0">
+      <nav id='home' className="w-full bg-[#161616] z-50 py-4 fixed top-0 left-0 right-0">
         <div className="justify-between px-1  mx-auto w-full lg:max-w-7xl md:items-center md:flex md:px-1">
           <div className='w-full'>
 
